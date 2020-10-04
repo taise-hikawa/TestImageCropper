@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6792AEA0E7D7275B341085E6 /* Pods_TestImageCropperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9623D56B759A78CF1134501D /* Pods_TestImageCropperTests.framework */; };
+		B63985D1E403C48DF3D597A0 /* Pods_TestImageCropper_TestImageCropperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBDBAA279F026B5B5ED2402 /* Pods_TestImageCropper_TestImageCropperUITests.framework */; };
+		C6D4389C1963C6F3A2A8C201 /* Pods_TestImageCropper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7806CDB3944DCC73CBD3C0 /* Pods_TestImageCropper.framework */; };
 		D32C49CE252A503F0092F5F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C49CD252A503F0092F5F4 /* AppDelegate.swift */; };
 		D32C49D0252A503F0092F5F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C49CF252A503F0092F5F4 /* SceneDelegate.swift */; };
 		D32C49D2252A503F0092F5F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C49D1252A503F0092F5F4 /* ViewController.swift */; };
@@ -15,6 +18,7 @@
 		D32C49DA252A50450092F5F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32C49D8252A50450092F5F4 /* LaunchScreen.storyboard */; };
 		D32C49E5252A50450092F5F4 /* TestImageCropperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C49E4252A50450092F5F4 /* TestImageCropperTests.swift */; };
 		D32C49F0252A50460092F5F4 /* TestImageCropperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C49EF252A50460092F5F4 /* TestImageCropperUITests.swift */; };
+		D32C4A0B252A52300092F5F4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C4A0A252A52300092F5F4 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D767B2098BFC910B828BAD7 /* Pods-TestImageCropperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestImageCropperTests.debug.xcconfig"; path = "Target Support Files/Pods-TestImageCropperTests/Pods-TestImageCropperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56BC6622EB898C0133A7C18D /* Pods-TestImageCropper-TestImageCropperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestImageCropper-TestImageCropperUITests.release.xcconfig"; path = "Target Support Files/Pods-TestImageCropper-TestImageCropperUITests/Pods-TestImageCropper-TestImageCropperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C9262E13499C8D61CDAB4F5 /* Pods-TestImageCropper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestImageCropper.release.xcconfig"; path = "Target Support Files/Pods-TestImageCropper/Pods-TestImageCropper.release.xcconfig"; sourceTree = "<group>"; };
+		605F9381D7FC396688863AE5 /* Pods-TestImageCropper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestImageCropper.debug.xcconfig"; path = "Target Support Files/Pods-TestImageCropper/Pods-TestImageCropper.debug.xcconfig"; sourceTree = "<group>"; };
+		7BCC5AC12BC299EBFAA6A5CF /* Pods-TestImageCropper-TestImageCropperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestImageCropper-TestImageCropperUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestImageCropper-TestImageCropperUITests/Pods-TestImageCropper-TestImageCropperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9623D56B759A78CF1134501D /* Pods_TestImageCropperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestImageCropperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCDBADE7019D57E2CEEBA2C /* Pods-TestImageCropperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestImageCropperTests.release.xcconfig"; path = "Target Support Files/Pods-TestImageCropperTests/Pods-TestImageCropperTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC7806CDB3944DCC73CBD3C0 /* Pods_TestImageCropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestImageCropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32C49CA252A503F0092F5F4 /* TestImageCropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestImageCropper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32C49CD252A503F0092F5F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D32C49CF252A503F0092F5F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		D32C49EB252A50460092F5F4 /* TestImageCropperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestImageCropperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32C49EF252A50460092F5F4 /* TestImageCropperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImageCropperUITests.swift; sourceTree = "<group>"; };
 		D32C49F1252A50460092F5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32C4A0A252A52300092F5F4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DBBDBAA279F026B5B5ED2402 /* Pods_TestImageCropper_TestImageCropperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestImageCropper_TestImageCropperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D4389C1963C6F3A2A8C201 /* Pods_TestImageCropper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6792AEA0E7D7275B341085E6 /* Pods_TestImageCropperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63985D1E403C48DF3D597A0 /* Pods_TestImageCropper_TestImageCropperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C4302B21C61DAC0B5918CFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC7806CDB3944DCC73CBD3C0 /* Pods_TestImageCropper.framework */,
+				DBBDBAA279F026B5B5ED2402 /* Pods_TestImageCropper_TestImageCropperUITests.framework */,
+				9623D56B759A78CF1134501D /* Pods_TestImageCropperTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92399F75BECEF636C0F124A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				605F9381D7FC396688863AE5 /* Pods-TestImageCropper.debug.xcconfig */,
+				5C9262E13499C8D61CDAB4F5 /* Pods-TestImageCropper.release.xcconfig */,
+				7BCC5AC12BC299EBFAA6A5CF /* Pods-TestImageCropper-TestImageCropperUITests.debug.xcconfig */,
+				56BC6622EB898C0133A7C18D /* Pods-TestImageCropper-TestImageCropperUITests.release.xcconfig */,
+				4D767B2098BFC910B828BAD7 /* Pods-TestImageCropperTests.debug.xcconfig */,
+				9DCDBADE7019D57E2CEEBA2C /* Pods-TestImageCropperTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D32C49C1252A503F0092F5F4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				D32C49E3252A50450092F5F4 /* TestImageCropperTests */,
 				D32C49EE252A50460092F5F4 /* TestImageCropperUITests */,
 				D32C49CB252A503F0092F5F4 /* Products */,
+				92399F75BECEF636C0F124A1 /* Pods */,
+				7C4302B21C61DAC0B5918CFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 				D32C49CF252A503F0092F5F4 /* SceneDelegate.swift */,
 				D32C49D1252A503F0092F5F4 /* ViewController.swift */,
 				D32C49D3252A503F0092F5F4 /* Main.storyboard */,
+				D32C4A0A252A52300092F5F4 /* SecondViewController.swift */,
 				D32C49D6252A50450092F5F4 /* Assets.xcassets */,
 				D32C49D8252A50450092F5F4 /* LaunchScreen.storyboard */,
 				D32C49DB252A50450092F5F4 /* Info.plist */,
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D32C49F4252A50460092F5F4 /* Build configuration list for PBXNativeTarget "TestImageCropper" */;
 			buildPhases = (
+				BA87E728DFD482E421AB6854 /* [CP] Check Pods Manifest.lock */,
 				D32C49C6252A503F0092F5F4 /* Sources */,
 				D32C49C7252A503F0092F5F4 /* Frameworks */,
 				D32C49C8252A503F0092F5F4 /* Resources */,
+				802372C300A5EBFA2C1C8009 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D32C49F7252A50460092F5F4 /* Build configuration list for PBXNativeTarget "TestImageCropperTests" */;
 			buildPhases = (
+				EC68A07795BAB5AC2459584E /* [CP] Check Pods Manifest.lock */,
 				D32C49DC252A50450092F5F4 /* Sources */,
 				D32C49DD252A50450092F5F4 /* Frameworks */,
 				D32C49DE252A50450092F5F4 /* Resources */,
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D32C49FA252A50460092F5F4 /* Build configuration list for PBXNativeTarget "TestImageCropperUITests" */;
 			buildPhases = (
+				FB4F918D4DC41F7503A5294A /* [CP] Check Pods Manifest.lock */,
 				D32C49E7252A50460092F5F4 /* Sources */,
 				D32C49E8252A50460092F5F4 /* Frameworks */,
 				D32C49E9252A50460092F5F4 /* Resources */,
+				E6F69848D22C5651688F1163 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,11 +301,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		802372C300A5EBFA2C1C8009 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestImageCropper/Pods-TestImageCropper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestImageCropper/Pods-TestImageCropper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestImageCropper/Pods-TestImageCropper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA87E728DFD482E421AB6854 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestImageCropper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6F69848D22C5651688F1163 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestImageCropper-TestImageCropperUITests/Pods-TestImageCropper-TestImageCropperUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestImageCropper-TestImageCropperUITests/Pods-TestImageCropper-TestImageCropperUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestImageCropper-TestImageCropperUITests/Pods-TestImageCropper-TestImageCropperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC68A07795BAB5AC2459584E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestImageCropperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB4F918D4DC41F7503A5294A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestImageCropper-TestImageCropperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D32C49C6252A503F0092F5F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32C4A0B252A52300092F5F4 /* SecondViewController.swift in Sources */,
 				D32C49D2252A503F0092F5F4 /* ViewController.swift in Sources */,
 				D32C49CE252A503F0092F5F4 /* AppDelegate.swift in Sources */,
 				D32C49D0252A503F0092F5F4 /* SceneDelegate.swift in Sources */,
@@ -433,6 +585,7 @@
 		};
 		D32C49F5252A50460092F5F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 605F9381D7FC396688863AE5 /* Pods-TestImageCropper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +604,7 @@
 		};
 		D32C49F6252A50460092F5F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C9262E13499C8D61CDAB4F5 /* Pods-TestImageCropper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +623,7 @@
 		};
 		D32C49F8252A50460092F5F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D767B2098BFC910B828BAD7 /* Pods-TestImageCropperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +645,7 @@
 		};
 		D32C49F9252A50460092F5F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DCDBADE7019D57E2CEEBA2C /* Pods-TestImageCropperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +667,7 @@
 		};
 		D32C49FB252A50460092F5F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCC5AC12BC299EBFAA6A5CF /* Pods-TestImageCropper-TestImageCropperUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +687,7 @@
 		};
 		D32C49FC252A50460092F5F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56BC6622EB898C0133A7C18D /* Pods-TestImageCropper-TestImageCropperUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
